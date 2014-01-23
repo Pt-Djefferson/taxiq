@@ -15,3 +15,9 @@ SOURCES += main.cpp
 # Please do not modify the following two lines. Required for deployment.
 include(qtquick2controlsapplicationviewer/qtquick2controlsapplicationviewer.pri)
 qtcAddDeployment()
+
+RESOURCES += \
+    res.qrc
+
+OTHER_FILES += \
+    qml/main.qml

@@ -77,7 +77,7 @@ void QtQuick2ControlsApplicationViewer::setMainQmlFile(const QString &file)
 #ifdef Q_OS_ANDROID
     component.loadUrl(QUrl(QStringLiteral("assets:/")+d->mainQmlFile));
 #else
-    component.loadUrl(QUrl::fromLocalFile(d->mainQmlFile));
+    component.loadUrl(QUrl(d->mainQmlFile));
 #endif
 
     if (!component.isReady())
