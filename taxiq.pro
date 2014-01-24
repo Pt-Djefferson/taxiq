@@ -20,4 +20,4 @@ RESOURCES += \
     res.qrc
 
 OTHER_FILES += \
-    qml/main.qml
+    qml/taxiq/main.qml

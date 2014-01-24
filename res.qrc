@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/qml">
-        <file>qml/main.qml</file>
+        <file>qml/taxiq/main.qml</file>
     </qresource>
 </RCC>
